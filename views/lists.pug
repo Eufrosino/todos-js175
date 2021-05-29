@@ -2,7 +2,7 @@ extends layout
 
 block main
   if todoLists === undefined || todoLists.length === 0
-    p#no_list You don't have any todo lists. Why not create one?
+    p#no_list You don't have any todo lists yet. Why not make one?
   else
     ul#lists
       each todoList in todoLists
